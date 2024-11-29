@@ -25,8 +25,8 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "Sumi - Sakurasawa",\n     "author": "Danịel",\n   "status_bot": "active"\n }\n}'
-global.wait = '🐢 *Sumi Sakurasawa*'
+global.author = '{\n "bot": {\n   "name": "Mister - Z",\n     "author": "Zamus",\n   "status_bot": "active"\n }\n}'
+global.wait = '🐢 *Mister Z*'
 global.botname = 'Mister - Z'
 global.textbot = `Powered By Starlights Team`
 global.listo = '*🍭 Aqui tiene*'
