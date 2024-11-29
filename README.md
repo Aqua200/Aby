@@ -12,7 +12,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone 
+git clone https://github.com/Zamu190510/MisterZ.git && cd MisterZ 
 ```
 
 ```bash
