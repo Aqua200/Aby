@@ -14,7 +14,7 @@ let img = catalogo
 	    externalAdReply: {
 				    showAdAttribution: true,
 					title: botname,
-					body: 'Hola',
+					body: '𝑬𝒍 𝑩𝒐𝒕 𝒔𝒆𝒙𝒖𝒂𝒍 𝒅𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝒃𝒃💋',
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
