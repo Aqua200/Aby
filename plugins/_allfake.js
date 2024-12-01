@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://qu.ax/GwMFx.jpg',
+					thumbnailUrl: '',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false
