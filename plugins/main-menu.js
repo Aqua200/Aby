@@ -26,7 +26,7 @@ let tags = {
 
 const defaultMenu = {
   before: `
-*✧ ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬ ✧ *
+*✧▭▬▭▬✦✧✦▬▭▬▭✧ *
 
 “ hola *%name* soy Mister-z ”
 
