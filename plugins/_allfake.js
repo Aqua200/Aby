@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "",
       serverMessageId: 100,
-      newsletterName: 'Misterz',
+      newsletterName: '💫𝐌𝐢𝐬𝐭𝐞𝐫-𝐳❄️',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
