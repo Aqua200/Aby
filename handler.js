@@ -90,7 +90,9 @@ export async function handler(chatUpdate) {
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('onlyLatinos' in chat))
-                    chat.onlyLatinos = false
+                    chat.onlyLatinos = false    
+                if (!('antifake' in chat)) 
+                    chat.antifake = false
                  if (!('nsfw' in chat))
                     chat.nsfw = false
                 if (!isNumber(chat.expired))
@@ -101,6 +103,7 @@ export async function handler(chatUpdate) {
                     bienvenida: true,
                     antiLink: false,
                     onlyLatinos: false,
+                    antifake: false,
                     nsfw: false, 
                     expired: 0, 
                 }
