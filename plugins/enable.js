@@ -34,18 +34,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
           global.dfail('admin', m, conn)
           throw false
         }
-      chat.antiLink = isEnable
-      break 
       }
-  }
-      case 'antiinternacional': case 'antinternacional': case 'antinternational': case 'antifake': case 'antifalsos': case 'antivirtuales': case 'antiextranjeros':                
-      if (m.isGroup) {
-      if (!(isAdmin || isOwner)) {
-      global.dfail('admin', m, conn)
-    throw false
-}}
-chat.antifake = isEnable          
-break
+      chat.antiLink = isEnable
+      break
       
       case 'nsfw':
       case 'modohorny':
@@ -73,8 +64,6 @@ break
 *Tipo :* document 
 *Descripción :* Des/Activa la *Descarga En Documentos* para el Usuario
 
-*Tipo :* chat.antifake
-*Descripción :* Des/Activar el *antifake* para el grupo 
 *• Ejemplo:*
 *- ${usedPrefix + command}* welcome
 `.trim())
