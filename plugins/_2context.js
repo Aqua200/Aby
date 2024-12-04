@@ -49,7 +49,7 @@ conn.reply(m.chat, 'prueba3', m, {
             previewType: 0,
             renderLargerThumbnail: true,
             thumbnailUrl: 'https://qu.ax/LoEXX.jpg',
-            sourceUrl: 'https://qu.ax/MPeCD.jpg'
+            sourceUrl: 'https://qu.ax/yoDsb.jpg'
         }
     }
     });
