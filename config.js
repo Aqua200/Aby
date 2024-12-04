@@ -10,8 +10,8 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['573503418427', '𝙾𝚠𝚗𝚎𝚛 𝚉𝚊𝚖𝚞𝚜⁩👑', true],
-  ['573163952124', '𝙲𝚘-𝚘𝚠𝚗𝚎𝚛.𝙽𝚎𝚢𝚔𝚘𝚘𝚛👑', true],
+  ['573163952124', 'Neykoor💜', true],
+  ['', '', true],
   [''],
   [''],
   ['']
@@ -25,9 +25,9 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "Mister - Z",\n     "author": "Zamus",\n   "status_bot": "active"\n }\n}'
-global.wait = ' *💫𝐌𝐢𝐬𝐭𝐞𝐫-𝐳❄️*'
-global.botname = '💫𝐌𝐢𝐬𝐭𝐞𝐫-𝐳❄️'
+global.author = '{\n "bot": {\n   "name": "💫Aby🌹",\n     "author": "Neykoor",\n   "status_bot": "active"\n }\n}'
+global.wait = ' *💫Aby🌹*'
+global.botname = '💫Aby🌹'
 global.textbot = `Powered By Starlights Team`
 global.listo = '*🍭 Aqui tiene*'
 global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
@@ -39,8 +39,8 @@ global.miniurl = fs.readFileSync('./storage/img/miniurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/EfBc4IQxZgR0sqG0MrPvuZ'
-global.canal = 'https://whatsapp.com/channel/0029VaxetKo0gcfCkEBRZx3r'
+global.group = 'https://chat.whatsapp.com/Ckzx2wkWdxQ7orAzC8tNeK'
+global.canal = 'https://whatsapp.com/channel/0029VarsCsD545unQ5Lw7429'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
