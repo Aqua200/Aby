@@ -31,7 +31,7 @@ conn.reply(m.chat, 'prueba2', m, {
             previewType: 0,
             renderLargerThumbnail: true,
             thumbnailUrl: 'https://qu.ax/zUmvt.jpg',
-            sourceUrl: 'https://qu.ax/XvtPr.jpg'
+            sourceUrl: 'https://qu.ax/wPayK.jpg'
         }
     }
     });
