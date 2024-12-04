@@ -1,7 +1,7 @@
 {
-  "name": "Sumi-Sakurasawa",
-  "version": "5.0.0",
-  "description": "Simple WhatsApp Bot Multi Device",
+  "name": "Aby",
+  "version": "1.0.0",
+  "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/DanielDiod/Sumi-Sakurasawa",
+  "homepage": "https://github.com/Aqua200/Aby",
   "author": {
-    "name": "DanielDiod"
+    "name": "Aqua200"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielDiod/Sumi-Sakurasawa.git"
+    "url": "git+https://github.com/Aqua200/Aby.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielDiod/Sumi-Sakurasawa/issues"
+    "url": "https://github.com/Aqua/Aby/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -39,10 +39,11 @@
         "awesome-phonenumber": "^3.4.0",
         "@SumiFX/Scraper": "github:SumiFX/SumiFX-Scraper",
         "@StarlightsTeam/Scraper": "github:StarlightsTeam/StarlightsTeam-Scraper",
+        "google-libphonenumber": "3.2.38",
         "axios": "^1.1.2",
         "acrcloud": "^1.4.0",
         "form-data": "^4.0.0",
-        "cfonts": "^3.1.1",
+        "cfonts": "^3.2.0",
         "chalk": "^5.1.0",
         "url-file-size": "^1.0.5-1",
         "fluid-spotify.js": "*",
@@ -92,4 +93,4 @@
          "wa-sticker-formatter": "^4.3.2",
         "moment-timezone": "^0.5.37"
     }
-}
+  }
