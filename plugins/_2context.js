@@ -30,7 +30,7 @@ conn.reply(m.chat, 'prueba2', m, {
             body: '875567754566',
             previewType: 0,
             renderLargerThumbnail: true,
-            thumbnailUrl: 'https://qu.ax/XvtPr.jpg',
+            thumbnailUrl: 'https://qu.ax/zUmvt.jpg',
             sourceUrl: 'https://qu.ax/XvtPr.jpg'
         }
     }
