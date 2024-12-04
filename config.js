@@ -25,9 +25,9 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "💫Aby🌹",\n     "author": "Neykoor",\n   "status_bot": "active"\n }\n}'
-global.wait = ' *💫Aby🌹*'
-global.botname = '💫Aby🌹'
+global.author = '{\n "bot": {\n   "name": "💫edeb🌹",\n     "author": "Neykoor",\n   "status_bot": "active"\n }\n}'
+global.wait = ' *💫edeb🌹*'
+global.botname = '💫edeb🌹'
 global.textbot = `Powered By Starlights Team`
 global.listo = '*🍭 Aqui tiene*'
 global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
