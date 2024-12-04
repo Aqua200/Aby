@@ -48,7 +48,7 @@ conn.reply(m.chat, 'prueba3', m, {
             body: '554ytecbbhgc',
             previewType: 0,
             renderLargerThumbnail: true,
-            thumbnailUrl: 'https://qu.ax/MPeCD.jpg',
+            thumbnailUrl: 'https://qu.ax/LoEXX.jpg',
             sourceUrl: 'https://qu.ax/MPeCD.jpg'
         }
     }
