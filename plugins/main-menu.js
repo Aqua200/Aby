@@ -26,9 +26,13 @@ let tags = {
 
 const defaultMenu = {
   before: `
-🌹乡•——◤ ✧ ◥——•乡🌹
+🌹乡•———◤ ✧ ◥———•乡🌹
 
-“ hola *%name* soy Mister-z ”
+“ hola *%name* soy 
+💫edeb🌹 por el momento 
+me encuentro en testeo
+pero iremos avanzando 
+poco❤️”
 
 ╭──⬣「 *Info User* 」⬣
 │✧🌹 *🍭 Nombre ∙* %name
