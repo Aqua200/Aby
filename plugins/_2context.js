@@ -13,7 +13,7 @@ if (command === 't1'){
             previewType: 0,
             renderLargerThumbnail: true,
             thumbnailUrl: 'https://qu.ax/NjeTa.jpg',
-            sourceUrl: 'https://qu.ax/XvtPr.jpg'
+            sourceUrl: 'https://qu.ax/azjXK.jpg'
         }
     }
     });
