@@ -12,7 +12,7 @@ if (command === 't1'){
             body: 'iyrrgbbfrtvv',
             previewType: 0,
             renderLargerThumbnail: true,
-            thumbnailUrl: 'https://qu.ax/XvtPr.jpg',
+            thumbnailUrl: 'https://qu.ax/NjeTa.jpg',
             sourceUrl: 'https://qu.ax/XvtPr.jpg'
         }
     }
