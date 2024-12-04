@@ -9,12 +9,12 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "",
       serverMessageId: 100,
-      newsletterName: '💫𝐌𝐢𝐬𝐭𝐞𝐫-𝐳❄️',
+      newsletterName: '💫edeb🌹',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
 					title: botname,
-					body: '𝑬𝒍 𝑩𝒐𝒕 𝒔𝒆𝒙𝒖𝒂𝒍 𝒅𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝒃𝒃💋',
+					body: 'Beta1.0',
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
