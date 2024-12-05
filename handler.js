@@ -86,7 +86,13 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('bienvenida' in chat))
-                    chat.bienvenida = true 
+                    chat.bienvenida = true
+                if (!('modoadmin' in chat)) 
+                    chat.modoadmin = false
+                if (!('detect' in chat)) 
+                    chat.detect = true
+                if (!('audios' in chat))
+                    chat.audios = false
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('onlyLatinos' in chat))
@@ -99,18 +105,27 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     bienvenida: true,
+                    modoadmin: false,
+                    detect: true,
+                    audios: false,
                     antiLink: false,
                     onlyLatinos: false,
                     nsfw: false, 
-                    expired: 0, 
+                    expired: 0,
                 }
             var settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
                 if (!('self' in settings)) settings.self = false
+                if (!('jadibotmd' in settings)) settings.jadibotmd = false
+               if (!('autobio' in settings)) settings.autobio = false
+                if (!('antiPrivate' in settings)) settings.antiPrivate = false
                 if (!('autoread' in settings)) settings.autoread = false
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
+                jadibotmd: false,
+                autobio: false,
+                antiPrivate: false,
                 autoread: false,
                 status: 0
             }
@@ -248,6 +263,9 @@ export async function handler(chatUpdate) {
                     if (name != 'owner-unbanbot.js' && setting?.banned)
                         return
                 }
+                let adminMode = global.db.data.chats[m.chat].modoadmin
+
+                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin) return
                 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { 
                     fail('owner', m, this)
                     continue
@@ -403,18 +421,18 @@ export async function handler(chatUpdate) {
 
 global.dfail = (type, m, conn, usedPrefix) => {
     let msg = {
-        rowner: `🍭 Hola, este comando solo puede ser utilizado por el *Creador* de la Bot.`,
-        owner: `🍭 Hola, este comando solo puede ser utilizado por el *Creador* de la Bot y *Sub Bots*.`,
-        mods: `🍭 Hola, este comando solo puede ser utilizado por los *Moderadores* de la Bot.`,
-        premium: `🍭 Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
-        group: `🍭 Hola, este comando solo puede ser utilizado en *Grupos*.`,
-        private: `🍭 Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
-        admin: `🍭 Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
-        botAdmin: `🍭 Hola, la bot debe ser *Administradora* para ejecutar este Comando.`,
-        unreg: `🍭 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Daniel.17`,
-        restrict: `🍭 Hola, esta característica está *deshabilitada.*`  
+        rowner: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado por el propietario del bot_`,
+        owner: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado por el propietario del bot_`,
+        mods: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado por los moderadores del bot_`,
+        premium: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado por usuarios premium_`,
+        group: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado en grupos_`,
+        private: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado en el chat privado_`,
+        admin: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando solo puede ser utilizado por los administradores del grupo_`,
+        botAdmin: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗_Necesito ser administrador para ejecutar este comando_`,
+        unreg: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Para usar este comando debes estar registrad@_\n\nUtiliza: *.reg nombre.edad*\n\nEjemplo: .reg Airi.17`,
+        restrict: `╔────── ¤ ◎ ⚠️ ◎ ¤ ──────╗\n_Este comando está restringido_`  
     }[type]
-    if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
+    if (msg) return conn.reply(m.chat, msg, m).then(_ => m.react('✖️'))
 }
 
 let file = global.__filename(import.meta.url, true)
